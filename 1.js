@@ -1,4 +1,4 @@
-function moreNum (num1, num2){
+function more (num1, num2){
     const arr1 = num1.toString().split('');
     const arr2 = num2.toString().split('');
     if(arr1.length>arr2.length){
@@ -9,4 +9,4 @@ function moreNum (num1, num2){
         console.log('equal')
     }
 }
-moreNum(1,11)
+more(1,11)
